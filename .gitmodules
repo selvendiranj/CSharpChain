@@ -1,0 +1,3 @@
+[submodule "External"]
+	path = External
+	url = git://github.com/MetacoSA/NBitcoin.git
