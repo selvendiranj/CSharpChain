@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="QBitNinja.Client" Version="1.0.3.47" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\External\NBitcoin\NBitcoin.csproj" />
   </ItemGroup>
 
