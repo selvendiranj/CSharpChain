@@ -1,9 +1,9 @@
-﻿using NBitcoin;
-using QBitNinja.Client;
-using QBitNinja.Client.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using NBitcoin;
+using QBitNinja.Client;
+using QBitNinja.Client.Models;
 
 namespace ConsoleApp
 {
