@@ -11,7 +11,7 @@ namespace ConsoleApp
 {
     class SpendCoins
     {
-        public static void Print()
+        public static void Execute()
         {
             // Step 1: Generate KeyPair and note down private key, wallet address
             // Send some bitcoins from testnet/mainnet

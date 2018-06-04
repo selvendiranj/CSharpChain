@@ -7,20 +7,22 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            // generate a random private key
+            //generate a random private key
             //Key privateKey = new Key();
 
-            //KeyGen.Print(privateKey);
+            //KeyGen.Execute(privateKey);
 
-            //Address.Print(privateKey);
+            //Address.Execute(privateKey);
 
-            //ScriptPubKey.Print(privateKey);
+            //ScriptPubKey.Execute(privateKey);
 
-            //PrivateKey.Print(privateKey);
+            //PrivateKey.Execute(privateKey);
 
-            //TransactionVerifier.Print();
+            //TransactionVerifier.Execute();
 
-            SpendCoins.Print();
+            //SpendCoins.Execute();
+
+            ProofOfOwnership.Execute();
         }
     }
 }

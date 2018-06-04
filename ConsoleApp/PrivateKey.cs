@@ -7,7 +7,7 @@ namespace ConsoleApp
 {
     class PrivateKey
     {
-        public static void Print(Key privateKey)
+        public static void Execute(Key privateKey)
         {
             // generate our Bitcoin secret(also known as Wallet Import Format or simply WIF)
             // from our private key for the mainnet & testnet

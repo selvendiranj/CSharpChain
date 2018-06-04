@@ -7,7 +7,7 @@ namespace ConsoleApp
 {
     class ScriptPubKey
     {
-        public static void Print(Key privateKey)
+        public static void Execute(Key privateKey)
         {
             // use a one-way cryptographic function, to generate a public key.
             PubKey publicKey = privateKey.PubKey;

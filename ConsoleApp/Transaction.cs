@@ -9,7 +9,7 @@ namespace ConsoleApp
 {
     class TransactionVerifier
     {
-        public static void Print()
+        public static void Execute()
         {
             string TxnHex = "f13dc48fb035bbf0a6e989a26b3ecb57b84f85e0836e777d6edf60d87a4a2d94";
             //Transaction tx = new Transaction(TxnHex);
