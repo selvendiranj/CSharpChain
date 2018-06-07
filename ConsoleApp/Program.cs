@@ -18,8 +18,11 @@ namespace ConsoleApp
             //SpendCoins.Execute();
             //ProofOfOwnership.Execute();
             //KeyGenAndEncryption.Execute(bitcoinPrivateKey);
+            //HDWallet_BIP32.Execute();
+            //MnemonicCode_HD_BIP39.Execute();
+            //DarkWallet.Execute();
 
-            HDWallet_BIP32.Execute();
+
         }
     }
 }
