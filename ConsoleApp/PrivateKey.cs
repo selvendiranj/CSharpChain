@@ -29,6 +29,8 @@ namespace ConsoleApp
             PubKey publicKey = privateKey.PubKey;
             BitcoinPubKeyAddress bitcoinPublicKey = publicKey.GetAddress(Network.Main); // 1PUYsjwfNmX64wS368ZR5FMouTtUmvtmTY
             //PubKey samePublicKey = bitcoinPublicKey.ItIsNotPossible;
+
+            Console.ReadLine();
         }
     }
 }

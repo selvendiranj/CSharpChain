@@ -188,6 +188,8 @@ namespace ConsoleApp
                 node.SendMessage(new TxPayload(newTxn));
                 Thread.Sleep(500); //Wait a bit
             }*/
+
+            Console.ReadLine();
         }
     }
 }

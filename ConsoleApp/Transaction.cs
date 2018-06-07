@@ -84,6 +84,8 @@ namespace ConsoleApp
 
             // coinbase Txn rule
             // sum of output's value = (transaction fees in the block + the mining reward)
+
+            Console.ReadLine();
         }
     }
 }

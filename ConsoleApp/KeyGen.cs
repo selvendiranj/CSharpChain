@@ -7,10 +7,12 @@ namespace ConsoleApp
 {
     class KeyGen
     {
-        public static void Execute(Key privateKey)
+        public static BitcoinSecret Execute(Key privateKey)
         {
             BitcoinSecret mySecret = privateKey.GetWif(Network.Main);
             Console.WriteLine("My BitcoinSecret: " + mySecret);
+
+            return mySecret;
         }
     }
 }

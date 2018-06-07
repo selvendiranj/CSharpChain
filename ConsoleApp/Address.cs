@@ -26,6 +26,8 @@ namespace ConsoleApp
             Console.WriteLine("publicKeyHash: " + publicKeyHash);
             Console.WriteLine("mainNetAddress: " + mainNetAddress);
             Console.WriteLine("testNetAddress: " + testNetAddress);
+
+            Console.ReadLine();
         }
     }
 }

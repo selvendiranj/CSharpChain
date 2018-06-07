@@ -45,6 +45,7 @@ namespace ConsoleApp
             
 
             Console.WriteLine("Is isNicolasDorier Signature? " + isNicolasDorier);
+            Console.ReadLine();
         }
     }
 }

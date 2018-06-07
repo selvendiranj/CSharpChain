@@ -7,22 +7,19 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            //generate a random private key
-            //Key privateKey = new Key();
-
-            //KeyGen.Execute(privateKey);
+            // Generate a random private key
+            Key privateKey = new Key();
+            BitcoinSecret bitcoinPrivateKey = KeyGen.Execute(privateKey);
 
             //Address.Execute(privateKey);
-
             //ScriptPubKey.Execute(privateKey);
-
             //PrivateKey.Execute(privateKey);
-
             //TransactionVerifier.Execute();
-
             //SpendCoins.Execute();
+            //ProofOfOwnership.Execute();
+            //KeyGenAndEncryption.Execute(bitcoinPrivateKey);
 
-            ProofOfOwnership.Execute();
+            HDWallet_BIP32.Execute();
         }
     }
 }

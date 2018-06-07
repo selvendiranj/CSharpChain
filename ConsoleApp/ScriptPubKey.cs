@@ -31,6 +31,8 @@ namespace ConsoleApp
             Console.WriteLine(mainNetAddress == sameMainNetAddress); // True
             Console.WriteLine(publicKeyHash == samePublicKeyHash); // True
             Console.WriteLine(mainNetAddress == sameMainNetAddress2); // True
+
+            Console.ReadLine();
         }
     }
 }
