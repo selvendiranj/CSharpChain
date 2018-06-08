@@ -5,7 +5,7 @@ using NBitcoin;
 using QBitNinja.Client;
 using QBitNinja.Client.Models;
 
-namespace ConsoleApp
+namespace ConsoleApp.Transfer
 {
     class TransactionVerifier
     {

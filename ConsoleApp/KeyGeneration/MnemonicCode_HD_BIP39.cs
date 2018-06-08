@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using NBitcoin;
 
-namespace ConsoleApp
+namespace ConsoleApp.KeyGeneartion
 {
     class MnemonicCode_HD_BIP39
     {

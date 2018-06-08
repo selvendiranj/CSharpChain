@@ -4,7 +4,7 @@ using System.Text;
 using NBitcoin;
 using NBitcoin.Crypto;
 
-namespace ConsoleApp
+namespace ConsoleApp.KeyGeneartion
 {
     class KeyGenAndEncryption
     {

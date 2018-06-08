@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp
+namespace ConsoleApp.Transfer
 {
     class PrivateKey
     {

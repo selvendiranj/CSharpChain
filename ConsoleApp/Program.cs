@@ -1,5 +1,8 @@
 ﻿using System;
 using NBitcoin;
+using ConsoleApp.KeyGeneartion;
+using ConsoleApp.Ownership;
+using ConsoleApp.Transfer;
 
 namespace ConsoleApp
 {
@@ -22,7 +25,7 @@ namespace ConsoleApp
             //MnemonicCode_HD_BIP39.Execute();
             //DarkWallet.Execute();
 
-
+            P2PKH.Execute();
         }
     }
 }

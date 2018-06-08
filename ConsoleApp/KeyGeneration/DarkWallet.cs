@@ -4,7 +4,7 @@ using System.Text;
 using NBitcoin;
 using NBitcoin.Stealth;
 
-namespace ConsoleApp
+namespace ConsoleApp.KeyGeneartion
 {
     class DarkWallet
     {
