@@ -24,8 +24,10 @@ namespace ConsoleApp
             //HDWallet_BIP32.Execute();
             //MnemonicCode_HD_BIP39.Execute();
             //DarkWallet.Execute();
+            //P2PKH.Execute();
+            //P2WPKH.Execute();
 
-            P2PKH.Execute();
+            MultiSig.Execute();
         }
     }
 }
