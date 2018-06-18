@@ -13,7 +13,7 @@ namespace ConsoleApp.Transfer
     {
         public static void Execute()
         {
-            // Step 1: Generate KeyPair and note down private key, wallet address
+            // Step 1: Generate KeyPair and note down privateKey & walletAddress
             // Send some bitcoins from testnet/mainnet
             // Note down the transaction Id. or we can get the TxId later using wallet address
             var network = Network.TestNet;

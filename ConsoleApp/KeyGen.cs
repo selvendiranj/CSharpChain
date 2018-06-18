@@ -7,12 +7,19 @@ namespace ConsoleApp
 {
     class KeyGen
     {
-        public static BitcoinSecret Execute(Key privateKey)
+        public static KeyValuePair<BitcoinSecret, BitcoinAddress> GerNewPair()
         {
-            BitcoinSecret mySecret = privateKey.GetWif(Network.Main);
-            Console.WriteLine("My BitcoinSecret: " + mySecret);
+            Network network = Network.TestNet;
 
-            return mySecret;
+            Key privateKey = new Key();
+            BitcoinSecret bitcoinPrivateKey = privateKey.GetWif(network);
+            BitcoinAddress address = bitcoinPrivateKey.GetAddress();
+
+            Console.WriteLine();
+            Console.WriteLine("bitcoinPrivateKey: " + bitcoinPrivateKey);
+            Console.WriteLine("address: " + address);
+
+            return new KeyValuePair<BitcoinSecret, BitcoinAddress>(bitcoinPrivateKey, address);
         }
     }
 }
