@@ -26,15 +26,14 @@ namespace ConsoleApp.Transfer
             Console.WriteLine("bitcoinPrivateKey: " + bitcoinPrivateKey);
             Console.WriteLine("address: " + address);
 
-            // sender  (address): https://testnet.manu.backend.hamburg/faucet
+            // sender  (address) : https://testnet.manu.backend.hamburg/faucet
             // receiver (address): mki1B6VAi2xaUo7GiFjwBuX7f6urgCPqoU
-            // privateKey: cUyeaNoyfYQYC43sxozcyUvwhP6AHQK9ajBqtV23MbdEDxTuxgkT
-            // address: mki1B6VAi2xaUo7GiFjwBuX7f6urgCPqoU
-            // TxId : 4d08b8d2ae8083924b8e87b1c0a3abdee6336f7d4b9419fa8b942405b189bb27
+            // privateKey        : cUyeaNoyfYQYC43sxozcyUvwhP6AHQK9ajBqtV23MbdEDxTuxgkT
+            // TxId              : 4d08b8d2ae8083924b8e87b1c0a3abdee6336f7d4b9419fa8b942405b189bb27
 
-            // sender (address): mki1B6VAi2xaUo7GiFjwBuX7f6urgCPqoU
+            // sender (address)  : mki1B6VAi2xaUo7GiFjwBuX7f6urgCPqoU
             // receiver (address): mrHEsU8AfJTrsjYMLdHmeUyWMW5hWegdKu
-            // bitcoinPrivateKey: cNFXPwduvGRWJ89Wu5rtb3M32hC7j5x15E8F4WPof6qBh5Jrb7eQ
+            // privateKey        : cNFXPwduvGRWJ89Wu5rtb3M32hC7j5x15E8F4WPof6qBh5Jrb7eQ
 
 
             // Step 2:

@@ -7,7 +7,7 @@ using NBitcoin.Crypto;
 
 namespace ConsoleApp.Ownership
 {
-    class Arbitrary
+    class RedeemScript
     {
         public static void Execute()
         {
