@@ -40,7 +40,9 @@ namespace ConsoleApp
             //TxnBuilder.Execute();
 
             /*-------------------- Assets ---------------------------*/
-            IssuingAsset.Execute();
+            //IssuingAsset.Execute();
+            //TransferAsset.Execute();
+            UnitTests.Execute();
         }
     }
 }

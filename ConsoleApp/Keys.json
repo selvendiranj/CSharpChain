@@ -1,0 +1,18 @@
+{
+    "alice": {
+        "Address": "mki1B6VAi2xaUo7GiFjwBuX7f6urgCPqoU",
+        "PrivateKey": "cUyeaNoyfYQYC43sxozcyUvwhP6AHQK9ajBqtV23MbdEDxTuxgkT"
+    },
+    "bob": {
+        "Address": "mrHEsU8AfJTrsjYMLdHmeUyWMW5hWegdKu",
+        "PrivateKey": "cNFXPwduvGRWJ89Wu5rtb3M32hC7j5x15E8F4WPof6qBh5Jrb7eQ"
+    },
+    "satoshi": {
+        "Address": "",
+        "PrivateKey": ""
+    },
+    "selven": {
+        "Address": "",
+        "PrivateKey": ""
+    }
+}
