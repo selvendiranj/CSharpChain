@@ -42,7 +42,12 @@ namespace ConsoleApp
             /*-------------------- Assets ---------------------------*/
             //IssuingAsset.Execute();
             //TransferAsset.Execute();
-            UnitTests.Execute();
+            //UnitTests.Execute();
+            //IssuingAsset.Execute();
+            //TransferAsset.Execute();
+            //RicardianContracts.Execute();
+            //LiquidDemocracy.Execute();
+            ProofOfBurn.Execute();
         }
     }
 }
